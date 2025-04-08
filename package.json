@@ -1,0 +1,24 @@
+{
+  "name": "steam-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx allure run -- npx playwright test",
+    "ui": "npx playwright test --ui",
+    "openAllure": "npx allure open ./allure-report/awesome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@faker-js/faker": "^9.6.0",
+    "@playwright/test": "^1.51.1",
+    "@types/node": "^22.13.16"
+  },
+  "dependencies": {
+    "allure": "^3.0.0-beta.10",
+    "allure-playwright": "^3.2.1"
+  }
+}
